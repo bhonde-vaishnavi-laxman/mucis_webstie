@@ -1,0 +1,402 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: white;
+}
+
+.navbar{
+    width: 25%;
+    height: 15vh;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(20, 1, 35, 0.66);
+    border: 1.5px solid rgba(222, 241, 10, 0.763);
+    border-radius: 8px;
+    position:fixed;
+    top: 15px;
+  
+}
+#h{
+    color: whitesmoke;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    backdrop-filter: blur(90px);
+    text-align: start;
+    cursor: pointer;
+    font-size: 20px;
+}
+#se{
+    height: 30px;
+    width: 210px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 1.5px solid rgba(199, 184, 212, 0.763); 
+    background-color: transparent;
+    color: wheat;
+    cursor:pointer;
+}
+.Library{
+    height: 70vh;
+    width: 25%;
+    position: fixed;
+    top: 150px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(20, 1, 35, 0.66);
+    border: 1.5px solid rgba(222, 241, 10, 0.763);
+    border-radius: 8px;
+    
+}
+#li{
+    color: whitesmoke;
+    font-size: 15px;
+    position: relative;
+    top: 25px;
+    left: 60px;
+
+}
+.play{
+    height: 15vh;
+    width: 93%;
+    background-color: rgb(44, 42, 42);
+    color: whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    left: 13px;
+    text-align: start;
+}
+#h3{
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+#par{
+    
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+#pl{
+    position: relative;
+    top: 35px;
+    left: 30px;
+    height: 30px;
+    width: 110px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bro{
+    
+    height: 15vh;
+    width: 93%;
+    background-color: rgb(44, 42, 42);
+    color: whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+    left: 13px;
+    text-align: start;
+    
+}
+#p{
+    
+    position: relative;
+    left: 20px;
+    top: 15px;
+
+}
+#pa{
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+#br{position: relative;
+    top: 35px;
+    left: 30px;
+    height: 30px;
+    width: 110px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#check{
+    position: relative;
+    right: 200px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#btt{
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    position: relative;
+    left: 480px;
+    font-size: 17px;
+    color: black;
+}
+#btt:hover{
+    background-color: rgb(90, 222, 95);
+    color: black;
+}
+#btt1{
+    
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    position: relative;
+    left: 530px;
+    text-align: center;
+
+}
+#btt1:hover{
+    
+    background-color: rgb(90, 222, 95);
+    color: black;
+
+
+}
+#a{
+    color:white;
+}
+#a:hover{
+    color: black;
+}
+#login{
+    position: relative;
+    top: 7px;
+    font-size: 19px;
+    color:white;
+}
+#login:hover{
+    color: black;
+}
+img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    
+    
+}
+
+.rote{
+    
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 155px;
+    right: 50px;
+    border-radius: 4px solid black;
+}
+
+body{
+    background-color: rgb(52, 38, 60);
+}
+.rote:hover{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 210px;
+    right: 50px;
+    border: 3px solid wheat;
+    animation-name: spinAnimate;
+    animation-duration: 3s;
+    animation-timing-function: steps(5);
+    animation-delay:0s ;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    cursor: pointer;
+
+}
+.fa-play{
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    position: relative;
+    left: 15px;
+    top: 13px;
+}
+
+.soild{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: rgb(53, 214, 13) ;
+    position: relative;
+    left: 90px;
+} 
+
+.albums{
+    height: 190vh;
+    width: 73%;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(20, 1, 35, 0.66);
+    border: 1.5px solid rgba(222, 241, 10, 0.763);
+    
+    border-radius: 20px;
+    position: relative;
+    left: 390px;
+    bottom: 10px;
+    color: white;
+
+}
+#art11{
+    position: relative;
+    bottom: 180px;
+    left: 120px;
+}
+#art1{
+    
+    position: relative;
+    bottom: 500px;
+    left: 250px;
+
+}
+#art3{
+    position: relative;
+    bottom: 1500px;
+    left: 750px;
+
+
+}
+#art2{
+    
+    position: relative;
+    bottom: 1000px;
+    left: 500px;
+
+}
+.arts{
+    display: flex;
+    position: relative;
+    left: 100px;
+}
+#art{
+    margin: 25px;
+}
+.name{
+    position: relative;
+    bottom:140px;
+    right: 50px;
+}
+#name1{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+}
+.box{
+    position: relative;
+    bottom: 1240px;
+}
+.footer{
+    color: white;
+    position: relative;
+    bottom: 2740px;
+    display: flex;
+}
+#fo{
+    position: relative;
+    left: 20px;
+}
+#ol{
+    margin: 25px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+}
+#oo{
+    
+    position: relative;
+    left: 40px;
+
+}
+#ol1{
+    
+    margin: 25px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+
+}
+#lli{
+    
+    position: relative;
+    left: 40px;
+
+}
+#lo2{
+    margin: 40px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+
+}
+#ti{
+    
+    position: relative;
+    left: 40px;
+
+}
+#ol3{
+    
+    margin: 40px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+
+}
+#i{
+    cursor: pointer;
+
+}
+#brr1{
+    
+    height: 3px;
+    width: 600px;
+    background-color: rgb(2, 2, 20);
+    position: relative;
+    bottom: 2800px;
+   left: 200px;
+}
+#brr{
+    height: 3px;
+    width: 1100px;
+    background-color: rgb(15, 15, 19);
+    position: relative;
+    bottom: 2700px;
+    text-align: center;
+}
+#p9{
+    position: relative;
+    bottom: 2690px;
+    color: white;
+    left: 20px;
+}

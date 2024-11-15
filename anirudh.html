@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="anirudhh.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<style>
+    .fa-spotify{ color: white;
+        position: relative;
+        left: 20px;
+        top: 15px;
+
+    }
+    .fa-house{
+        color: white;
+        position: relative;
+        left: 30px;
+        top: 3px;
+    }
+    .fa-magnifying-glass{
+        color: white;
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+    .fa-plus{
+        color: white;
+        position: relative;
+        left: 200px;
+        top: 30px;
+    }
+    .fa-barcode{
+        color: white;
+        position: relative;
+        right: 100px;
+        top: 25px;
+    }
+    .fa-backward{
+        color: white;
+        cursor: pointer;
+    }
+    .fa-forward{
+        color: white;
+        position: relative;
+        left: 20px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+    <div class="navbar">
+        <i class="fa-brands fa-spotify"><i>spotify</i></i>
+
+        <h4 id="h">Home</h4>
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+
+        <input type="search" placeholder="search" id="se">
+
+    </div>
+    <div class="Library">
+        <a href="#" id="li"><b>Your Library</b></a>
+        <i class="fa-solid fa-plus"></i>
+        <i class="fa-solid fa-barcode"></i>
+
+
+        <div class="play">
+            <h3 id="h3"> Create your first playlist
+            </h3>
+            <p id="par">it's easy ,we'll help you</p>
+            <button id="pl">Create playlist</button>
+        </div>
+        <br>
+        <div class="bro">
+            <p id="p">Let's find some podcaste to follow</p>
+            <p id="pa">we'll keep you updated on new episodes</p>
+            <button id="br">browse podcasts</button>
+        </div>
+    </div>
+    <div class="photo">
+            
+        <div id="pth"> 
+        <div class="nav1">
+            <button for="check" id="check">         
+                <i class="fa-solid fa-backward" onclick="back()"></i>
+                <i class="fa-solid fa-forward" onclick="forward()"></i>
+    
+            </button>
+            <button id="btt">
+               <a href="sing.php" id="a"> Sing Up
+            </button></a>
+            <div id="btt1">
+            <a href="loginn.php" id="login">Log in</a> </div>
+        </div>
+        <h1 id="hh">Anirudh
+            <p id="p2">21.3M monthly listaners</p>
+
+        </h1>
+    </div>
+    </div>
+    <div class="home">
+        <div class="box2">
+            <div class="soild">
+                <i class="fa-solid fa-play"></i> </div>
+                <a href="" id="a2"><button id="fo">Follow</button></a>
+                <h1 id="a4">...</h1> 
+                <select id="select">
+                    <option value="...">...</option>
+                <option value="Follow">Follow</option>
+                <option value="Go to artist radio">Go to artist radio</option>
+                <option value="Report">Report</option>
+                <option value="Share">Share</option>
+                <option value="opne in Desktop app">opne in Desktop app</option>
+            </select>
+               
+        </div>
+        <h2 id="h4">Popular</h2>
+        <div class="box4">
+         <div id="img1">
+            <a href="ani-chaleya.html">
+             <h5 id="no">1</h5><img src="img/41.jpg" id="pic"> <p id="p5">Chaleya   </p>        <p id="p6"> 359,180,587</p>          <p id="p7"> <i class="fa-duotone fa-solid fa-heart"></i>   </p><p id="p8"> 3:53</p>
+            </a></div>
+            <br>
+             <div id="img2">
+            <a href="ani-kadharalz.html">
+                <h5 id="no">2</h5> <img src="img/42.jpg" id="pic"> <p id="p5">Kadharalz  </p>        <p id ="p6"> 12,854,093   </p>       <p id="p7">  <i class="fa-duotone fa-solid fa-heart"></i>  </p>   <p id="p8">  4:37</p>
+            </a>
+            </div>
+            <br>
+            <div id="img3">
+            <a href="ani-fear.html">
+                <h5 id="no">3</h5> <img src="img/43.jpg" id="pic"> <p id="p5"> Fear Song   </p>       <p id="p6"> 11,860,365  </p>      <p id="p7">  <i class="fa-duotone fa-solid fa-heart"></i>   </p>  <p id="p8">   4:06</p>
+            </a>
+            </div>
+            <br>
+            <div id="img4">
+            <a href="ani-hukum.html">
+                <h5 id="no">4</h5> <img src="img/44.jpg" id="pic"> <p id="p5"> Hukum- Thalaivar Alappra   </p>       <p id="p6"> 152,805,104   </p>        <p id="p7"> <i class="fa-duotone fa-solid fa-heart"></i> </p>     <p id="p8">  5:21</p>
+            </a>
+            </div>
+            <br>
+            <div id="img5">
+            <a href="ani-naa.html">
+                <h5 id="no">5</h5> <img src="img/45.jpg" id="pic"> <p id="p5"> Naa Ready    </p>   <p id="p6"> 149,085,385    </p>    <p id="p7">   <i class="fa-duotone fa-solid fa-heart"></i>  </p>    <p id="p8">  4:28</p>
+            </a>
+            </div>
+        </div>
+                                                                               
+     <h1 id="ab">About</h1>
+        <div class="img"></div>
+            <img src="img/anirudh.jpg" id="photo">
+            <p id="p1">21.3M monthly listaners</p>
+        
+        <div class="footer">
+            <h4 id="fo1">company</h4>
+            <ol id="ol">
+                <li>About</li>
+                <li>Jobs</li>
+                <li> For the Record</li>
+            </ol>
+    
+            <h4 id="oo">Communities</h4>
+            <ol id="ol1">
+                <li>For Artists</li>
+                <li> Developers</li>
+                <li> Advertising</li>
+                <li>Investors</li>
+                <li>Vendors</li>
+            </ol>
+            <h4 id="lli">Useful Linkes</h4>
+            <ol id="lo2">
+                <li>Support</li>
+                <li> Free Mobile App</li>
+            </ol>
+            <h4 id="ti">Spotify Plans</h4>
+            <ol id="ol3">
+                <li>Premium Individual</li>
+                <li> Premium Dou</li>
+                <li>Premium Family</li>
+                <li>Premium student</li>
+                <li> Spotify Free</li>
+            </ol>
+            <div id="i">
+                 <i class="fa-brands fa-facebook"></i>
+            
+                 <i class="fa-brands fa-facebook"></i>
+                
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <br>
+            
+    </div>
+    
+    <div id="brr"></div>
+    <div id="brr1"></div>
+    
+    <h5 id="p9">@2024 Spotify AB</h5>
+    </div>
+    
+    </div>
+    <script src="anirudh.js"></script>
+</body>
+</html>

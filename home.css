@@ -1,0 +1,406 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    width: 25%;
+    height: 15vh;
+    background-color:#09223a;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 1.5px solid rgba(199, 184, 212, 0.763); 
+    border-radius: 8px;
+    position:fixed;
+    top: 15px;
+  
+}
+#h{
+    color: whitesmoke;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    backdrop-filter: blur(90px);
+    text-align: start;
+    cursor: pointer;
+    font-size: 20px;
+}
+#se{
+    height: 30px;
+    width: 210px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 1.5px solid rgba(199, 184, 212, 0.763); 
+    background-color: transparent;
+    color: wheat;
+    cursor:pointer;
+}
+.Library{
+    height: 70vh;
+    width: 25%;
+    position: fixed;
+    top: 150px;
+    background-color:#09223a;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 1.5px solid rgba(199, 184, 212, 0.763); 
+    border-radius: 8px;
+    
+}
+#li{
+    color: whitesmoke;
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    left: 60px;
+
+}
+.play{
+    height: 15vh;
+    width: 93%;
+    background-color: rgb(44, 42, 42);
+    color: whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    left: 13px;
+    text-align: start;
+}
+#h3{
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+#par{
+    
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+#pl{
+    position: relative;
+    top: 35px;
+    left: 30px;
+    height: 30px;
+    width: 110px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bro{
+    
+    height: 15vh;
+    width: 93%;
+    background-color: rgb(44, 42, 42);
+    color: whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+    left: 13px;
+    text-align: start;  
+}
+.fa-play{
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    position: relative;
+    left: 15px;
+    top: 13px;
+}
+
+.soild{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: rgb(53, 214, 13) ;
+    position: relative;
+    left: 90px;
+}
+
+#p{
+    
+    position: relative;
+    left: 20px;
+    top: 15px;
+
+}
+.name1{
+    color: white;
+    position: relative;
+    top: 30px;
+}
+#pa{
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+#br{position: relative;
+    top: 35px;
+    left: 30px;
+    height: 30px;
+    width: 110px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#check{
+    position: relative;
+    right: 200px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#btt{
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    position: relative;
+    left: 480px;
+    font-size: 17px;
+    color: black;
+}
+#btt:hover{
+    background-color: rgb(90, 222, 95);
+    color: black;
+}
+#btt1{
+    
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    position: relative;
+    left: 530px;
+    text-align: center;
+
+}
+#btt1:hover{
+    
+    background-color: rgb(90, 222, 95);
+    color: black;
+
+
+}
+#a:hover{
+    color: black;
+}
+#login{
+    position: relative;
+    top: 7px;
+    font-size: 19px;
+    color:white;
+}
+#login:hover{
+    color: black;
+}
+body{
+    background-color: #436788;
+}
+.home{
+    height: 190vh;
+    width: 73%;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 1.5px solid rgba(199, 184, 212, 0.763); 
+    border-radius: 20px;
+    position: relative;
+    left: 390px;
+
+}
+.first11{
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.second{
+    font-size: 25px;
+    position: relative;
+    bottom: 780px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#show1{
+    position: relative;
+    right: 40px;
+}
+a{
+    color: white;
+}
+#show{
+    color: white;
+    position: relative;
+    right: 40px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;   
+}
+
+#img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    
+    
+}
+
+#art1{
+    position: relative;
+    left: 265px;
+    bottom: 290px;
+}
+#art2{
+    
+    position: relative;
+    left: 530px;
+    bottom: 570px;
+
+}
+#art3{
+    
+    position: relative;
+    left: 790px;
+    bottom: 870px;
+}
+
+.arts1{
+    display: flex;
+    position: relative;
+    left: 100px;
+}
+img:hover{
+    border: 3px solid wheat;
+
+}
+.arts{
+    display: flex;
+    position: relative;
+    left: 100px;
+    bottom: 800px;
+}
+#art{
+    margin: 25px;
+}
+.name{
+    color: white;
+    position: relative;
+    top: 30px;
+    right: 40px;
+    
+}
+
+.footer{
+    color: white;
+    position: relative;
+    bottom: 500px;
+    display: flex;
+}
+#fo{
+    position: relative;
+    left: 20px;
+}
+#ol{
+    margin: 25px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+}
+#oo{
+    
+    position: relative;
+    left: 40px;
+
+}
+#ol1{
+    
+    margin: 25px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+
+}
+#lli{
+    
+    position: relative;
+    left: 40px;
+
+}
+#lo2{
+    margin: 40px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+
+}
+#ti{
+    
+    position: relative;
+    left: 40px;
+
+}
+#ol3{
+    
+    margin: 40px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+
+}
+#i{
+    cursor: pointer;
+
+}
+#brr{
+    height: 3px;
+    width: 600px;
+    background-color: rgb(15, 15, 19);
+    position: relative;
+    bottom: 800px;
+    left: 250px;
+    text-align: center;
+}
+#brr1{
+    
+    height: 3px;
+    width: 1100px;
+    background-color: rgb(15, 15, 19);
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+
+}
+#p9{
+    position: relative;
+    bottom: 350px;
+    color: white;
+    left: 20px;
+}

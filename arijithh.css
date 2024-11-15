@@ -1,0 +1,1055 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(0, 0, 5)
+}
+.navbar{
+    width: 25%;
+    height: 15vh;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(20, 1, 35, 0.66);
+    border: 1.5px solid rgba(222, 241, 10, 0.763);
+    border-radius: 8px;
+    position:fixed;
+    top: 15px;
+  
+}
+#h{
+    color: whitesmoke;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    backdrop-filter: blur(90px);
+    text-align: start;
+    cursor: pointer;
+    font-size: 20px;
+}
+#se{
+    height: 30px;
+    width: 210px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 1.5px solid rgba(199, 184, 212, 0.763); 
+    background-color: transparent;
+    color: wheat;
+    cursor:pointer;
+}
+.Library{
+    height: 70vh;
+    width: 25%;
+    position: fixed;
+    top: 150px;
+    background-color:  transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(18, 2, 27, 0.66);
+    border: 1.5px solid rgba(203, 206, 10, 0.763);
+    border-radius: 8px;
+    
+}
+#li{
+    color: whitesmoke;
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    left: 60px;
+
+}
+.play{
+    height: 15vh;
+    width: 93%;
+    background-color: rgb(44, 42, 42);
+    color: whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    left: 13px;
+    text-align: start;
+}
+#h3{
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+#par{
+    
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+#pl{
+    position: relative;
+    top: 35px;
+    left: 30px;
+    height: 30px;
+    width: 110px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bro{
+    
+    height: 15vh;
+    width: 93%;
+    background-color: rgb(44, 42, 42);
+    color: whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+    left: 13px;
+    text-align: start;  
+}
+#p{
+    
+    position: relative;
+    left: 20px;
+    top: 15px;
+
+}
+.name1{
+    color: white;
+    position: relative;
+    top: 30px;
+}
+#pa{
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+#br{position: relative;
+    top: 35px;
+    left: 30px;
+    height: 30px;
+    width: 110px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.nav1{
+    display: flex;
+    position: fixed;
+   position: relative;
+   right: 6%;
+    justify-content: center;
+    margin: 20px;
+}
+#check{
+    position: relative;
+    right: 300px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#btt{
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    position: relative;
+    left: 300px;
+    top: 10px;
+    font-size: 17px;
+    color: black;
+}
+#btt:hover{
+    background-color: rgb(90, 222, 95);
+    color: black;
+}
+#btt1{
+    
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    position: relative;
+    left: 330px;
+    top: 10px;
+    text-align: center;
+
+}
+#btt1:hover{
+    
+    background-color: rgb(90, 222, 95);
+    color: black;
+
+
+}
+#a:hover{
+    color: black;
+}
+a{
+    color: white;
+}
+#login{
+    position: relative;
+    top: 7px;
+    font-size: 19px;
+    color:white;
+}
+#login:hover{
+    color: black;
+}
+body{
+    background-color: #550D0D;
+
+
+}
+
+.home{
+    height: 220vh;
+    width: 73%;
+    border-radius: 20px;
+    position: relative;
+    top: 550px;
+    left: 400px;
+    
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 97, 149, 0.66);
+    border: 1.5px solid rgba(199, 184, 212, 0.763); 
+    background-color: transparent;
+
+}
+.fa-play{
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    position: relative;
+    left: 15px;
+    top: 13px;
+}
+
+.soild{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color:green ;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    cursor: pointer;
+}
+#a2{
+    position: relative;
+    left: 70px;
+    bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#fo{
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+#fo:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(3, 66, 15);
+}
+
+option{
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    
+}
+#a4{
+    cursor: pointer;
+    position: relative;
+    bottom: 65px;
+    left: 200px;
+    font-size: 20px;
+    font-size: 50px;
+    color: black;
+
+}
+#h4{
+    color: white;
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+
+}
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+    
+}
+
+#select{
+    position: relative;
+    left: 200px;
+    bottom: 90px;
+    font-size: 40px;
+    height: 20px;
+    width: 40px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.photo{
+    position: fixed;    
+}
+#pth{
+    height: 500px;
+    width: 1100px;
+    position: fixed;
+    position: relative;
+    left: 70px;
+    margin-left: 30%;
+    background-image: url("arijith1.jpg");
+    background-size: cover;
+    
+}
+#hh{
+    color: white;
+    font-size: 110px;
+    font-style: italic;
+    position: relative;
+    top: 40%;
+    left: 20px;
+}
+#p2{
+    font-size: 25px;
+    
+}
+#img1{
+    height: 60px;
+    width: 1000px;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+#img1:hover{
+    border:  4px solid rgb(3, 9, 50);
+}
+
+
+#img2:hover{
+    border:  4px solid rgb(9, 1, 28);
+}
+#img3:hover{
+    border:  4px solid rgb(22, 5, 46);
+}
+#img4:hover{
+    border:  4px solid rgb(11, 2, 23);
+}
+#img5:hover{
+    border:  4px solid rgb(8, 1, 22);
+}
+
+#img2{
+    height: 60px;
+    width: 1000px;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+
+#img3{
+    height: 60px;
+    width: 1000px;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+
+#img4{
+    height: 60px;
+    width: 1000px;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+#img5{
+    height: 60px;
+    width: 1000px;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+#pic{
+    position: relative;
+    bottom: 14px;
+}
+#p5{
+    
+    position: relative;
+    bottom: 60px;
+    left: 190px;
+    color: black;
+}
+#p6{
+    
+    position: relative;
+    bottom: 80px;
+    left: 400px;
+    color: black;
+
+}
+#p7{
+    
+    position: relative;
+    bottom: 100px;
+    left: 700px;
+    color: black;
+
+}
+#p8{
+    
+    position: relative;
+    bottom: 110px;
+    left: 900px;
+    color: black;
+
+}
+#no{
+    color: black;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+
+.footer{
+    color: white;
+    position: relative;
+    top: 250px;
+    display: flex;
+}
+#fo1{
+    position: relative;
+    left: 20px;
+}
+#ol{
+    margin: 25px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+}
+#oo{
+    
+    position: relative;
+    left: 40px;
+
+}
+#ol1{
+    
+    margin: 25px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+
+}
+#lli{
+    
+    position: relative;
+    left: 40px;
+
+}
+#lo2{
+    margin: 40px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+
+}
+#ti{
+    
+    position: relative;
+    left: 40px;
+
+}
+#ol3{
+    
+    margin: 40px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+
+}
+#i{
+    cursor: pointer;
+
+}
+#brr{
+    height: 3px;
+    width: 600px;
+    background-color: rgb(15, 15, 19);
+    position: relative;
+    bottom: 20px;
+    left: 250px;
+    text-align: center;
+}
+#brr1{
+    
+    height: 3px;
+    width: 1100px;
+    background-color: rgb(15, 15, 19);
+    position: relative;
+    top: 300px;
+    text-align: center;
+
+}
+#p9{
+    position: relative;
+    top: 320px;
+    color: white;
+    left: 20px;
+}
+.img{
+    height: 400px;
+    width: 900px;
+    border-radius: 20px;
+    position: relative;
+    top: 250px;
+    left: 70px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    border: 1.5px solid rgba(255,255,255,0.18);
+
+}
+#p1{
+    color: white;
+    position: relative;
+    left: 200px;
+}
+#ab{
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 40px;
+}
+#photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 40px;
+    left: 200px;
+    opacity: 800;
+}
+@media(max-width:375px){
+    .navbar{
+        display: none;
+      
+    }
+    #h{
+        display: none;
+
+    }
+    #se{
+        display: none;
+
+    }
+    .Library{
+        display: none;
+
+        
+    }
+    #li{
+        display: none;
+
+    }
+    .play{        
+        display: none;
+
+    }
+    #h3{        
+        display: none;
+
+    }
+    #par{
+        display: none;
+
+    
+    }
+    #pl{       
+         display: none;
+
+    }
+    .bro{        
+        display: none;
+  
+    }
+    #p{
+        display: none;
+
+    }
+    #a:hover{
+        color: black;
+    }
+    a{
+        color: white;
+    }
+    #login{
+        position: relative;
+        top: 7px;
+        font-size: 19px;
+        color:white;
+    }
+    #login:hover{
+        color: black;
+    }
+    body{
+        background-color: #550D0D;
+    
+    
+    }
+    
+    .home{
+        height: 200vh;
+        width: 95%;
+        border-radius: 20px;
+        position: relative;
+        top: 30px;
+        left: 10px;
+        
+        backdrop-filter: blur(20px);
+        box-shadow: 0px 0px 30px rgba(254, 97, 149, 0.66);
+        border: 1.5px solid rgba(199, 184, 212, 0.763); 
+        background-color: transparent;
+    
+    }
+    .home:hover{
+        
+        backdrop-filter: blur(20px);
+        box-shadow: 0px 0px 30px rgba(225, 97, 254, 0.66);
+        border: 3px solid rgba(171, 227, 137, 0.763); 
+        background-color: transparent;
+
+    }
+    .fa-play{
+        color: rgb(7, 7, 7);
+        font-size: 25px;
+        position: relative;
+        left: 15px;
+        top: 13px;
+    }
+    
+    .soild{
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        background-color:green ;
+        position: relative;
+        left: 20px;
+        top: 30px;
+        cursor: pointer;
+    }
+    #a2{
+        position: relative;
+        left: 70px;
+        bottom: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    #fo{
+        height: 30px;
+        width: 90px;
+        border-radius: 15px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+    #fo:hover{
+        background-color: white;
+        color: black;
+        border: 3px solid rgb(3, 66, 15);
+    }
+    
+    option{
+        font-size: 15px;
+        color: white;
+        background-color: black;
+        
+    }
+    #a4{
+        cursor: pointer;
+        position: relative;
+        bottom: 65px;
+        left: 200px;
+        font-size: 20px;
+        font-size: 50px;
+        color: black;
+    
+    }
+    #h4{
+        color: white;
+        position: relative;
+        bottom: 60px;
+        left: 120px;
+        font-size: 40px;
+    
+    }
+    
+    #select{
+        position: relative;
+        left: 200px;
+        bottom: 90px;
+        font-size: 40px;
+        height: 20px;
+        width: 40px;
+        background-color: transparent;
+        border: transparent;
+    }
+    
+#pth{
+    background-image: url("img/arijith1.jpg");
+    background-size: contain; 
+}
+
+.nav1{
+    display: flex;
+   position: relative;
+   left: 70px;
+    justify-content: center;
+}
+#check{
+    position: relative;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#btt{
+    height: 30px;
+    width: 90px;
+    color: white;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    position: relative;
+    left: 300px;
+    top: 10px;
+    font-size: 17px;
+    color: black;
+}
+#btt:hover{
+    background-color: rgb(90, 222, 95);
+    color: black;
+}
+#btt1{
+    
+    height: 30px;
+    width: 90px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    position: relative;
+    left: 330px;
+    top: 10px;
+    text-align: center;
+
+}
+#btt1:hover{
+    
+    background-color: rgb(90, 222, 95);
+    color: black;
+}
+.photo{
+    position:relative;
+    right: 900px;
+}
+
+#hh{
+    color: rgb(10, 7, 7);
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 150px;
+    position: relative;
+    left: 750px;
+}
+#p2{
+    font-size: 25px;
+    
+}
+
+.fa-backward{
+    color: rgb(25, 19, 19);
+    cursor: pointer;
+    position: relative;
+    left: 530px;
+}
+#img1{
+    height: 224px;
+    width: 224px;
+    margin-left: 20%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+#img1:hover{
+    border:  4px solid rgb(3, 9, 50);
+}
+
+
+#img2:hover{
+    border:  4px solid rgb(9, 1, 28);
+}
+#img3:hover{
+    border:  4px solid rgb(22, 5, 46);
+}
+#img4:hover{
+    border:  4px solid rgb(11, 2, 23);
+}
+#img5:hover{
+    border:  4px solid rgb(8, 1, 22);
+}
+
+#img2{
+    height: 224px;
+    width: 224px;
+    margin-left: 20%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+
+#img3{
+    height: 224px;
+    width: 224px;
+    margin-left: 20%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+
+#img4{
+    height: 224px;
+    width: 224px;
+    margin-left: 20%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+#img5{
+    height: 224px;
+    width: 224px;
+    margin-left: 20%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+#pic{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    height: 140px;
+    width: 140px;
+}
+#pic:hover{
+    border: 3px solid rgb(27, 178, 212);
+    height: 160px;
+    width: 160px;
+}
+#p5{
+    
+    position: relative;
+    top: 30px;
+    left: 60px;
+    color: black;
+}
+#p6{
+    display: none;
+
+}
+#p7{
+    
+    position: relative;
+    bottom: 30px;
+    left: 200px;
+    color: black;
+
+}
+#p8{
+    display: none;
+
+}
+#no{
+    color: black;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+
+.footer{
+    color: white;
+    position: relative;
+    top: 250px;
+    display: flex;
+}
+#fo1{
+    position: relative;
+    left: 20px;
+    bottom: 200px;
+}
+#ol{
+    margin: 25px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+    bottom: 200px;
+}
+#oo{
+    
+    position: relative;
+    left: 40px;
+    bottom: 200px;
+
+}
+#ol1{
+    
+    margin: 25px;
+    list-style: none;
+    position: relative;
+    right: 70px;
+    bottom: 200px;
+
+}
+#lli{
+    display: none;
+
+}
+#lo2{
+    margin: 40px;
+    list-style: none;
+    position: relative;
+    right: 390px;
+    bottom: 50px;
+
+}
+#ti{
+    display: none;
+
+}
+#ol3{
+    
+    margin: 40px;
+    list-style: none;
+    position: relative;
+    right: 300px;
+    bottom: 50px;
+
+}
+#i{
+    cursor: pointer;
+
+}
+#brr{
+    height: 3px;
+    width: 300px;
+    background-color: rgb(15, 15, 19);
+    position: relative;
+    bottom: 250px;
+    left: 20px;
+    text-align: center;
+}
+#brr1{
+    
+    height: 3px;
+    width: 350px;
+    background-color: rgb(15, 15, 19);
+    position: relative;
+    top: 240px;
+    text-align: center;
+
+}
+#p9{
+    position: relative;
+    top: 260px;
+    color: white;
+    left: 20px;
+}
+#p1{
+    color: white;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+#ab{
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 40px;
+}
+#photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+    opacity: 800;
+}
+#photo:hover{
+    border: 3px solid wheat;
+    transition: 2s;
+}
+.img{
+    height: 400px;
+    width: 330px;
+    border-radius: 20px;
+    position: relative;
+    top: 160px;
+    left: 1px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    border: 1.5px solid rgba(255,255,255,0.18);
+
+}
+.img:hover{
+    
+    backdrop-filter: blur(30px);
+    box-shadow: 20px 0px 100px rgba(40, 23, 229, 0.823);
+    border: 4px solid rgba(19, 6, 20, 0.904);
+    height: 380px;
+    width: 300px;
+    transition: 3s;
+    position: relative;
+    left: 20px;
+
+}
+
+    
+    
+}
+
+
+
+
+
