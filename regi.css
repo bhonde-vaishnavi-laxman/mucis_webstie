@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:  rgb(177, 143, 194);
+}
+.container{
+    height: 700px;
+    width: 600px;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 20px 80px rgba(207, 96, 155, 0.66);
+    border: 3px solid rgba(222, 241, 10, 0.763);
+    background-color:rgb(203, 201, 201);
+    color: white;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+
+}
+.fa-spotify{
+    position: relative;
+    left: 470px;
+    top: 30px;
+    color: rgb(103, 167, 39);
+    font-size: 600px;
+}
+.fa-spotify:hover{
+    animation-name: spinAnimate;
+    animation-duration: 1s;
+    animation-timing-function: steps(8);
+    animation-delay:0s ;
+    animation-iteration-count: infinite;
+    animation-direction: normal; 
+
+}
+@keyframes spinAnimate{
+    from{
+        color: rgb(228, 119, 113);
+    }
+    to{
+        color: yellow;
+    }
+} 
+
+h3{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 150px;
+    position: relative;
+    right: 80px;
+    font-style: italic;
+    border-radius: 20px;
+    color:rgb(15, 5, 52);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(125, 90, 152, 0.66);
+    border: 3px solid rgba(67, 15, 17, 0.763);
+}
+h3:hover{
+    color:rgb(54, 6, 8);
+}
+.input{
+    display:inline-block;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+    left:50px;
+  
+}
+input:hover{
+    
+    border-radius: 6px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 20px 80px rgba(213, 193, 61, 0.66);
+    border: 3px solid rgba(195, 27, 251, 0.763);
+    cursor: pointer;
+}
+::placeholder{
+    color: black;
+}
+
+input{
+    margin-left: 10px;
+    height: 30px;
+    width: 500px;
+    position: relative;
+    right: 130px;
+    color: black;
+    background-color: transparent;
+    border-radius: 6px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(140, 99, 171, 0.66);
+    border: 3px solid rgba(10, 28, 28, 0.763);
+
+}
+
+pre{
+    margin-left: 100px;
+    font-size: 17px;
+    font-style:unset;
+    position: relative;
+    right: 550px;
+    top: 650px;
+    color: black;
+}

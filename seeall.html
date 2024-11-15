@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="seeall.css">
+    <title>Document</title>
+    <style>
+        .fa-spotify{ color: white;
+            position: relative;
+            left: 20px;
+            top: 15px;
+
+        }
+        .fa-house{
+            color: white;
+            position: relative;
+            left: 30px;
+            top: 3px;
+        }
+        .fa-magnifying-glass{
+            color: white;
+            position: relative;
+            top: 50px;
+            left: 30px;
+        }
+        .fa-plus{
+            color: white;
+            position: relative;
+            left: 200px;
+            top: 30px;
+        }
+        .fa-barcode{
+            color: white;
+            position: relative;
+            right: 100px;
+            top: 25px;
+        }
+        .fa-backward{
+            color: white;
+            cursor: pointer;
+        }
+        .fa-forward{
+            color: white;
+            position: relative;
+            left: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <i class="fa-brands fa-spotify"><i>spotify</i></i>
+
+        <h4 id="h">Home</h4>
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+
+        <input type="search" placeholder="search" id="se">
+
+    </div>
+    <div class="Library">
+        <a href="#" id="li"><b>Your Library</b></a>
+        <i class="fa-solid fa-plus"></i>
+        <i class="fa-solid fa-barcode"></i>
+
+
+        <div class="play">
+            <h3 id="h3"> Create your first playlist
+            </h3>
+            <p id="par">it's easy ,we'll help you</p>
+            <button id="pl">Create playlist</button>
+        </div>
+        <br>
+        <div class="bro">
+            <p id="p">Let's find some podcaste to follow</p>
+            <p id="pa">we'll keep you updated on new episodes</p>
+            <button id="br">browse podcasts</button>
+        </div>
+    </div>
+
+      
+    <div class="nav1">
+        <button for="check" id="check">         
+            <i class="fa-solid fa-backward" onclick="back()"></i>
+            <i class="fa-solid fa-forward" onclick="forward()"></i>
+
+        </button>
+        <button id="btt">
+           <a href="sing.php" id="a"> Sing Up
+        </button></a>
+        <div id="btt1">
+        <a href="loginn.php" id="login">Log in</a> </div>
+    </div>
+    <div class="artists">
+        <h1 id="name1">Popular-artists</h1>
+       <div class="arts">
+        <div id="art">
+            <a href="pritam.html"><img src="img/pritam.jpg" id="pr"></a>
+            <div class="soild">
+                <a href="pritam.html"><i class="fa-solid fa-play"></i></a></div>
+            <div class="rote"></div>
+            <div class="name">
+                <a href="pritam.html" class="a01">Pritam</a>
+            <p class="a01">Artist</p>
+            </div>
+        </div>
+        <div id="art">
+            <a href="arijthi.html"><img src="img/arijita.jpg" id="pr"></a>
+            <div class="soild">
+                <a href="arijthi.html"><i class="fa-solid fa-play"></i></a></div>
+             <div class="rote"></div>
+            <div class="name">
+            <a href="arijthi.html" class="a01">Arijiti singh</a>
+            <p class="a01">Artist</p>
+            </div>
+        </div>
+        <div id="art">
+            <a href="a.r.rehaman.html"> <img src="img/A.Rrehaman.jpg" id="pr"></a>
+            <div class="soild">
+               <a href="a.r.rehaman.html"> <i class="fa-solid fa-play"></i></a></div>
+            <div class="rote"></div>
+            <div class="name">
+            <a href="a.r.rehaman.html" class="a01">A.R Rahman</a>
+            <p class="a01">Artist</p>
+            </div>
+        </div>
+        <div id="art">
+            <a href="sachin.html"><img src="img/sachin.jpg" id="pr"></a>
+            <div class="soild">
+               <a href="sachin.html"> <i class="fa-solid fa-play"></i></a></div>
+            <div class="rote"></div>
+            <div class="name">
+            <a href="sachin.html" class="a01">Sachin-jigar</a>
+            <p class="a01">Artist</p>
+            </div>
+        </div>
+        </div>
+        <div id="art11">
+            <a href="anirudh.php"> <img src="img/anirudh.jpg" id="pr"></a>
+            <div class="soild">
+                <a href="anirudh.html"><i class="fa-solid fa-play"></i></a></div>
+            <div class="rote"></div>
+            <div class="name">
+            <a href="anirudh.html" class="a01">Anirudh Ravichander</a>
+            <p class="a01">Artist</p>
+            </div>
+            <div id="art1">
+                <a href="vishal.html"><img src="img/vishal mis.jpg" id="pr"></a>
+                <div class="soild">
+                   <a href="vishal.html"> <i class="fa-solid fa-play"></i></a></div>
+                <div class="rote"></div>
+                <div class="name">
+                <a href="vishal.html" class="a01">Vishal Mishra</a>
+                <p class="a01">Artist</p>
+                </div>
+            </div>
+            <div id="art2">
+                <a href="aslam.html"><img src="img/atif.jpg" id="pr"></a>
+                <div class="soild">
+                   <a href="aslam.html"> <i class="fa-solid fa-play"></i></a></div>
+                <div class="rote"></div>
+                <div class="name">
+                <a href="aslam.html" class="a01">Atif Aslam</a>
+                <p class="a01">Artist</p>
+                </div>
+            </div>
+            <div id="art3">
+                <a href="darshan.html"><img src="img/darshan.jpg" id="pr"></a>
+                <div class="soild">
+                    <a href="darshan.html"><i class="fa-solid fa-play"></i></a></div>
+                <div class="rote"></div>
+                <div class="name">
+                <a href="darshan.html" class="a01">Darshan Raval</a>
+                <p class="a01">Artist</p>
+                </div>
+            </div>
+            </div>
+                </div>
+                <div id="brr1"></div>
+
+                <div class="footer">
+                    <h4 id="fo">company</h4>
+                    <ol id="ol">
+                        <li>About</li>
+                        <li>Jobs</li>
+                        <li> For the Record</li>
+                    </ol>
+            
+                    <h4 id="oo">Communities</h4>
+                    <ol id="ol1">
+                        <li>For Artists</li>
+                        <li> Developers</li>
+                        <li> Advertising</li>
+                        <li>Investors</li>
+                        <li>Vendors</li>
+                    </ol>
+                    <h4 id="lli">Useful Linkes</h4>
+                    <ol id="lo2">
+                        <li>Support</li>
+                        <li> Free Mobile App</li>
+                    </ol>
+                    <h4 id="ti">Spotify Plans</h4>
+                    <ol id="ol3">
+                        <li>Premium Individual</li>
+                        <li> Premium Dou</li>
+                        <li>Premium Family</li>
+                        <li>Premium student</li>
+                        <li> Spotify Free</li>
+                    </ol>
+                    <div id="i">
+                         <i class="fa-brands fa-facebook"></i>
+                    
+                         <i class="fa-brands fa-facebook"></i>
+                        
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <br>
+                    
+            </div>
+            
+            <div id="brr"></div>
+            <h5 id="p9">@2024 Spotify AB</h5>
+            </div>
+            </div>
+            
+        </div>
+        
+    <script src="seeall.js"></script>
+</body>
+</html>

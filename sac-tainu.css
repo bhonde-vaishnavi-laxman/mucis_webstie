@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(0, 0, 5)
+}
+.navbar{
+    width: 25%;
+    height: 15vh;
+    background-color:#09223a;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 1.5px solid rgba(199, 184, 212, 0.763); 
+    border-radius: 8px;
+    position:fixed;
+    top: 15px;
+  
+}
+#h{
+    color: whitesmoke;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    backdrop-filter: blur(90px);
+    text-align: start;
+    cursor: pointer;
+    font-size: 20px;
+}
+#se{
+    height: 30px;
+    width: 210px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 1.5px solid rgba(199, 184, 212, 0.763); 
+    background-color: transparent;
+    color: wheat;
+    cursor:pointer;
+}
+.Library{
+    height: 70vh;
+    width: 25%;
+    position: fixed;
+    top: 150px;
+    background-color:#09223a;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 1.5px solid rgba(199, 184, 212, 0.763); 
+    border-radius: 8px;
+    
+}
+#li{
+    color: whitesmoke;
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    left: 60px;
+
+}
+.play{
+    height: 15vh;
+    width: 93%;
+    background-color: rgb(44, 42, 42);
+    color: whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    left: 13px;
+    text-align: start;
+}
+#h3{
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+#par{
+    
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+#pl{
+    position: relative;
+    top: 35px;
+    left: 30px;
+    height: 30px;
+    width: 110px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bro{
+    
+    height: 15vh;
+    width: 93%;
+    background-color: rgb(44, 42, 42);
+    color: whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+    left: 13px;
+    text-align: start;  
+}
+#p{
+    
+    position: relative;
+    left: 20px;
+    top: 15px;
+
+}
+
+#pa{
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+#br{position: relative;
+    top: 35px;
+    left: 30px;
+    height: 30px;
+    width: 110px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#check{
+    position: relative;
+    right: 200px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#btt{
+    height: 40px;
+    width: 130px;
+    color: white;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    position: relative;
+    left: 480px;
+    font-size: 17px;
+    color: black;
+}
+#btt:hover{
+    background-color: rgb(90, 222, 95);
+    color: black;
+}
+#btt1{
+    
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    position: relative;
+    left: 530px;
+    text-align: center;
+
+}
+#btt1:hover{
+    
+    background-color: rgb(90, 222, 95);
+    color: black;
+
+
+}
+a{
+    color: white;
+}
+#a:hover{
+    color: black;
+}
+#login{
+    position: relative;
+    top: 7px;
+    font-size: 19px;
+    color:white;
+}
+#login:hover{
+    color: black;
+}
+body{
+    background-color: #849aae;
+
+
+}
+
+#top{
+    text-align: center;
+    padding-top: 7%;
+}
+.home{
+    height: 100vh;
+    width: 50%;
+    position: relative;
+    left: 40%;
+    border-radius: 20px ;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 3.5px solid rgba(11, 3, 17, 0.763); 
+    background-color:transparent;
+}
+.container{
+    
+    height: 70vh;
+    width: 50%;
+    border-radius: 20px ;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 3.5px solid rgba(152, 117, 180, 0.763); 
+    background-color:rgb(47, 8, 79);
+    position: relative;
+    top: 5%;
+    left: 25%;
+    
+}
+.sname{
+    color: white;
+    position: relative;
+    font-style: italic;
+    font-weight: 800px;
+    text-align: center;
+    top: 5%;
+}
+.fa-circle-play{
+    font-size: 55px;
+    color: white;
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+}
+.fa-circle-pause{
+    
+    font-size: 55px;
+    color: white;
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+  
+
+}
+.no{
+    position: relative;
+    top: 110px;
+    left: 270px;
+    color: white;
+}
+.fa-backward-step{
+    font-size: 50px;
+    position: relative;
+    right: 60%;
+    bottom: 10px;
+    color: white;
+    cursor: pointer;
+}
+.fa-forward-step{
+    font-size: 50px;
+    position: relative;
+    bottom: 7px;
+    left: 60%;
+    color: white;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.fa-chevron-left  {
+   text-align: center;
+   align-items: center;
+   color: #c5afba;
+   cursor: pointer;
+   font-size: 25px;
+   box-shadow: 0.5px 5px rgba(23, 1, 27, 0.918);
+}
+.fa-bars{
+   line-height: 40px;
+   text-align: center;
+   align-items: center;
+   cursor: pointer;
+   color: #dac9d2;
+   font-size: 25px;
+   box-shadow: 0.5px 5px rgba(23, 1, 27, 0.918);
+
+}
+
+.song-img{
+    position: relative;
+    top: 10%;
+    left: 17%;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 30px rgba(254, 188, 97, 0.66);
+    border: 3.5px solid rgba(18, 4, 30, 0.763); 
+}
+.sname{
+    color: white;
+    position: relative;
+    top: 13%;
+    font-style: italic;
+}
+marquee{
+    
+    color: white;
+    position: relative;
+    top: 13%;
+
+}
+#progress{
+     -webkit-appearance: none;
+    width: 70% ;
+    height: 6px;
+    background-color: #f53192;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #6d0e51;
+    width: 20px;
+    height: 20px;
+    border-radius: 23px;
+    border: 5px solid #d2d5dd;
+    box-shadow: 0 5px 5px rgba(255,25,26,0.22) ;
+
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}

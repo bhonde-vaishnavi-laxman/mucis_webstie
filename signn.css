@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(2, 2, 24);
+}
+
+.from{
+    height: 850px;
+    width: 700px;
+    background-color:transparent;
+    position: relative;
+    top: 40px;
+    left: 400px;
+    border-radius: 20px;
+}
+.go{
+    height: 30px;
+    width: 260px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 300px;
+    left: 600px;
+    color:whitesmoke;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    
+}
+#fa{
+    
+    height: 30px;
+    width: 260px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 260px;
+   left: 330px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+
+
+}
+#bro{
+    height: 3px;
+    width: 130px;
+    background-color: rgb(108, 105, 105);
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+#or{
+    position: relative;
+    top: 100px;
+    left: 330px;
+    color: white;
+
+}
+#bro1{
+    
+    height: 3px;
+    width: 150px;
+    background-color: rgb(108, 105, 105);
+    position: relative;
+    top: 90px;
+    left: 370px;
+
+}
+.ap{
+    
+    height: 30px;
+    width: 260px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 220px;
+    left: 70px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+
+}
+.nu{
+    
+    height: 30px;
+    width: 260px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 180px;
+    right: 200px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 55px;
+}
+input{
+    height: 30px;
+    width: 250px;
+    color: white;
+    position: relative;
+    top: 50px;
+left: 200px;
+background-color: transparent;
+border: 2px solid white;
+}
+a{
+    color: white;
+}
+.page{
+    position: relative;
+    left: 600px;
+    top: 20px;
+}
+#in{
+    position: relative;
+    left: 180px;
+    bottom: 170px;
+}
+#p{
+    color: aliceblue;
+    position: relative;
+    bottom: 150px;
+
+}
+a{
+    color: white;
+}
+
+.next{
+    height: 40px;
+    width: 260px;
+    background-color: rgb(24, 217, 24);
+    border-radius: 20px ;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+    left: 200px;
+    border: 2px solid black ;
+}
+::placeholder{
+    color: wheat;
+}
